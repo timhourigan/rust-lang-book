@@ -52,4 +52,11 @@ fn main() {
     println!("The first value is {}", tup_mix.0);
 
     // Arrays
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    println!("The value of a is {:?}", a);
+
+    let aa = [3; 5];
+    println!("The value of aa is {:?}", aa);
+    let first = a[0];
+    println!("The value of first is {:?}", first);
 }
