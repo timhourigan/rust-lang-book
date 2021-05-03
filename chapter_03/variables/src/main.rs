@@ -41,4 +41,15 @@ fn main() {
 
     let z = 'Z';
     println!("The value of z is {}", z);
+
+    // Tuples
+    let tup = (500, 6.4, 1);
+    let (xx, yy, zz) = tup;
+    println!("The values are {}, {}, {}", xx, yy, zz);
+
+    let tup_mix: (i32, f64, u8) = (500, 6.4, 1);
+    println!("The value of tup_mix is {:?}", tup_mix);
+    println!("The first value is {}", tup_mix.0);
+
+    // Arrays
 }
