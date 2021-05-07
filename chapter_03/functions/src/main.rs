@@ -1,6 +1,6 @@
 fn main() {
     another_function(1, 2);
-    
+
     let x = five();
     println!("The value of x is: {}", x);
 
